@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-weight: 500;
+  align-items: center;
+}
+.nav li {
+  cursor: pointer;
+  justify-content: center;
+  margin-top: 20px;
+}
+.contactHeading {
+  font-size: 48px;
+  font-weight: 800;
+}
+.contactPara {
+  font-weight: 500;
+}
+
+.contactFormContainer {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.buttonContainer{
+  display: flex;
+  gap: 20px;
+
+}
+
+.btnPrimary{
+  padding: 18px 10px;
+  background-color: #000;
+  color :#fff;
+  min-width: 200px;
+  border:5px ;
+  display: flex ;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  margin-top: 10px ;
+
+
+}
+.btnSecondary{
+  padding: 18px 10px;
+  background-color: #fff;
+  color :#000;
+  /* min-width: 200px; */
+  border:5px ;
+  display: flex ;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  margin-top: 10px ;
+
+
+}
