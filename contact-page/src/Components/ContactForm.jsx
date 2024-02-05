@@ -85,7 +85,7 @@ const ContactForm = () => {
         <img src="Images/contact.svg" alt="contact image" />
       </div>
       <div>
-        <button onClick={notify}>Show Toast</button>
+       
         <ToastContainer />
       </div>
     </div>
