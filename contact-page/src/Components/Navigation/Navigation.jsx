@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./Navigation.module.css";
 const Navigation = () => {
 
-  console.log(styles);
+  
   return (
     <>
       <div className="main container">

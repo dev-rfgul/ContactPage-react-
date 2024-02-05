@@ -1,16 +1,15 @@
-import {MdMessage} from 'react-icons/md'
-
-const Button = (props) => {
-  console.log(props)
+const Button = (props, ...rest) => {
+  console.log(props);
   return (
     <>
-    <button className='btnPrimary container'>
-      {props.text}
-      {props.icon }
-    </button>
-    
+      <button 
+      {...rest}
+      className="btnPrimary  container ">
+        {props.text}
+        {props.icon}
+      </button>
     </>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;

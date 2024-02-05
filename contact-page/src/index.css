@@ -10,6 +10,7 @@
 .container {
   max-width: 1280px;
   margin: 0 auto;
+  
 }
 .nav {
   display: flex;
@@ -36,19 +37,18 @@
   max-width: 1000px;
   margin: 0 auto;
 }
-.buttonContainer{
+.buttonContainer {
   display: flex;
   gap: 20px;
-
 }
 
-.btnPrimary{
+.btnPrimary {
   padding: 18px 10px;
   background-color: #000;
-  color :#fff;
+  color: #fff;
   min-width: 200px;
-  border:5px ;
-  display: flex ;
+  border: 5px;
+  display: flex;
   align-items: center;
   gap: 10px;
   justify-content: center;
@@ -56,17 +56,15 @@
   cursor: pointer;
   border-radius: 10px;
   transition: all 0.3s ease;
-  margin-top: 10px ;
-
-
+  margin-top: 10px;
 }
 .btnSecondary{
   padding: 18px 10px;
   background-color: #fff;
-  color :#000;
-  /* min-width: 200px; */
-  border:5px ;
-  display: flex ;
+  color: #000;
+  min-width: 200px;
+  border: 5px;
+  display: flex;
   align-items: center;
   gap: 10px;
   justify-content: center;
@@ -74,7 +72,34 @@
   cursor: pointer;
   border-radius: 10px;
   transition: all 0.3s ease;
-  margin-top: 10px ;
+  margin-top: 10px;
+  width: 100%;
+}
 
-
+.form{
+  margin-top: 20px;
+}
+.formControl{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.formControl input {
+  height: 40px;
+  padding: 18px 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.formControl label{
+  /* position: absolute; */
+  font-weight: 700;
+  font-size: 20px ;
+}
+.img img{
+  margin-top: 40px;
+  
 }
